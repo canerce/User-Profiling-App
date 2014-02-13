@@ -1,4 +1,3 @@
-mobile
+User Profile Example
 ======
-Butce Takip Application for personel usage.
-You can create multiple users to log came and went money usage.
+Easy example of user about application.
