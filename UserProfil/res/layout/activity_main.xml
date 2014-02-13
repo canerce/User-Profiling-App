@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/today"
+        android:textColor="#FF0000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="50dp"
+        android:text="@string/about"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDate"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textSize="20sp" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGetNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHello"
+        android:layout_marginTop="50dp"
+        android:minHeight="50dp"
+        android:text="@string/student_number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="@string/enter"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGetNumber"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/your_number"
+        android:textSize="18sp" />
+
+</RelativeLayout>

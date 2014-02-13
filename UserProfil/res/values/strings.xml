@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">User Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="today">Today:</string>
+    <string name="enter">Say Hello</string>
+    <string name="about">About</string>
+    <string name="name">Write your name</string>
+    <string name="welcome">Hello!</string>
+    <string name="back">Back</string>
+    <string name="student_number">Get My Student Number</string>
+    <string name="your_number">Your Number: </string>
+    <string name="enter_number">Write your student number</string>
+    <string name="title_activity_student_number">Student Number</string>
+    <string name="ok">OK</string>
+
+</resources>

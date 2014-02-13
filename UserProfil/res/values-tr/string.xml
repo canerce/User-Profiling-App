@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Yer Detay</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="today">Bugün:</string>
+    <string name="enter">Merhaba</string>
+    <string name="about">Hakkımda</string>
+    <string name="name">Adınızı giriniz</string>
+    <string name="welcome">Merhaba!</string>
+    <string name="back">Geri</string>
+    <string name="student_number">Okul Numarasını Gir</string>
+    <string name="your_number">Okul Numaranız: </string>
+    <string name="enter_number">Okul numaranızı giriniz</string>
+    <string name="title_activity_student_number">Okul Numarası</string>
+    <string name="ok">Tamam</string>
+    <string name="yer_adi">     Yer Adı</string>
+        
+</resources>
